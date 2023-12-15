@@ -1,6 +1,6 @@
-# Frontend Mentor - Fylo dark theme landing page solution
+# Javascript30 - JS Clock challenge
 
-This is a solution to the [JavaScript Drum Kit](https://github.com/wesbos/JavaScript30) challenge provided by Wesbos on his JavaScript30 course.
+This is a solution to the [JS Clock challenge](https://github.com/wesbos/JavaScript30) challenge provided by Wesbos on his JavaScript30 course.
 
 ## Table of contents
 
