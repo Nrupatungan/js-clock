@@ -15,16 +15,18 @@
     <script src="./app/js/script.js" defer></script>
 </head>
 <body class="bg-mobile min-[700px]:bg-desktop bg-cover bg-no-repeat min-h-screen grid place-items-center">
-    <section class="clock w-[20rem] max-[319px]:w-full h-[20rem] border-[1rem] border-lime-400 rounded-full min-[700px]:border-amber-600 p-8 relative transition-all duration-200 ease-linear">
-        <div class="clock-face w-full h-full relative text-white">
-          <div id="hour-hand" class="h-[0.18rem] w-[70px] rounded-full origin-[100%] bg-white min-[700px]:bg-blue-500 absolute top-[50%] left-[19%] rotate-90 transition-all duration-[0.5s] ease-[0.1,_2.7,_0.58,_1]"></div>
-          <div id="min-hand" class="h-[0.15rem] w-[110px] rounded-full origin-[100%] bg-green-600 min-[700px]:bg-emerald-500 absolute top-[50%] left-[1.2%] rotate-90 transition-all duration-[0.5s] ease-[0.1,_2.7,_0.58,_1]"></div>
-          <div id="second-hand" class="h-[0.09rem] w-1/2 rounded-full origin-[100%] bg-pink-800 min-[700px]:bg-red-600 absolute top-[50%] rotate-90 transition-all duration-[0.5s] ease-[0.1,_2.7,_0.58,_1]"></div>
-          <div class="bg-fuchsia-400 min-[700px]:bg-violet-600 border border-slate-400 rounded-full h-[0.5rem] w-[0.5rem] absolute top-[50%] left-[50%] translate-x-[-50%] translate-y-[-50%] z-10"></div>
-        </div>
-    </section>
-    <section class="py-4 px-2 text-center bg-gradient-to-bl from-[#0d3457] to-teal-900 rounded-xl transition-all duration-150 ease-linear">
-        <h1 class="font-Nabla text-3xl tracking-[0.5em] transition-all duration-200 ease-linear"><span class="hr ps-3.5 transition-all duration-200 ease-linear"></span>:<span class="mint transition-all duration-200 ease-linear"></span>:<span class="sec transition-all duration-200 ease-linear"></span></h1>
-    </section>
+    <main>
+        <section class="clock w-[20rem] max-[319px]:w-full h-[20rem] border-[1rem] border-lime-400 rounded-full min-[700px]:border-amber-600 p-8 transition-all duration-200 ease-linear mb-24">
+            <div class="clock-face w-full h-full relative text-white">
+              <div id="hour-hand" class="h-[50px] w-[5px] rounded-t-3xl absolute bottom-[50%] left-[50%] translate-x-[-50%] origin-bottom bg-white min-[700px]:bg-blue-500 transition-all duration-[0.5s] ease-[0.1,_2.7,_0.58,_1]"></div>
+              <div id="min-hand" class="h-[80px] w-[3px] rounded-t-3xl absolute bottom-[50%] left-[50%] translate-x-[-50%] origin-bottom bg-green-600 min-[700px]:bg-emerald-500 transition-all duration-[0.5s] ease-[0.1,_2.7,_0.58,_1]"></div>
+              <div id="second-hand" class="h-[120px] w-[1px] rounded-t-3xl absolute bottom-[50%] left-[50%] translate-x-[-50%] origin-bottom bg-pink-800 min-[700px]:bg-red-600 transition-all duration-[0.05s] ease-[0.1,_2.7,_0.58,_1]"></div>
+              <div class="bg-fuchsia-400 min-[700px]:bg-violet-600 border border-slate-400 rounded-full h-[0.7rem] w-[0.7rem] absolute top-[50%] left-[50%] translate-x-[-50%] translate-y-[-50%] z-10"></div>
+            </div>
+        </section>
+        <section class="py-4 px-2 text-center bg-gradient-to-bl from-[#0d3457] to-teal-900 rounded-xl transition-all duration-150 ease-linear">
+            <h1 class="font-Nabla text-3xl tracking-[0.5em] transition-all duration-200 ease-linear"><span class="hr ps-3.5 transition-all duration-200 ease-linear"></span>:<span class="mint transition-all duration-200 ease-linear"></span>:<span class="sec transition-all duration-200 ease-linear"></span></h1>
+        </section>
+    </main>
 </body>
 </html>
