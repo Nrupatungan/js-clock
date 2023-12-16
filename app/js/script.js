@@ -22,8 +22,10 @@ function setDate() {
     const hourDegrees = ((hour / 12) * 360) + ((mins/60)*30);
     hour_hand.style.transform = `rotate(${hourDegrees}deg)`;
     hr.innerText = hour;
+
+    // Use requestAnimationFrame to create a smooth animation
+    requestAnimationFrame(setDate);
 }
 
-setInterval(setDate, 1000);
-
+// Call setDate initially to start the animation
 setDate();
