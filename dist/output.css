@@ -640,6 +640,10 @@ video {
   min-height: 100vh;
 }
 
+.min-h-\[100svh\] {
+  min-height: 100svh;
+}
+
 .w-1\/2 {
   width: 50%;
 }
@@ -877,6 +881,10 @@ video {
 
 .duration-\[0\.05s\] {
   transition-duration: 0.05s;
+}
+
+.duration-\[0\.2s\] {
+  transition-duration: 0.2s;
 }
 
 .ease-\[0\.1\2c _2\.7\2c _0\.58\2c _1\] {
